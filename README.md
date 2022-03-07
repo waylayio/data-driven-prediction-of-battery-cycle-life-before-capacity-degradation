@@ -14,3 +14,5 @@ The data associated with each battery (cell) can be grouped into one of three ca
 - **Cycle data** include information within a cycle, including time, charge capacity, current, voltage, temperature, discharge capacity. We also include derived vectors of discharge dQ/dV, linearly interpolated discharge capacity (i.e. `Qdlin`) and linearly interpolated temperature (i.e. `Tdlin`).
 
 The `LoadData` files show how the data can be loaded and which cells were used for analysis in the paper.
+
+- `build_pkl.py` builds all 3 batches in one run. 
